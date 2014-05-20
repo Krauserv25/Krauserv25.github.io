@@ -1,21 +1,47 @@
 
+body
+{
+	background-color: lightgrey;
+}
+
 #divTodo
 {
 	margin: 0;
 	padding: 0;
 }
 
-.image
+#divHeader
 {
-	width: 5%;
-	height: 50px;
-	margin-top: 15px;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.imageLogo
+{
+	float: left;
+	width: 10%;
+	height: 100%;
+}
+
+h1
+{
+	font-size: 5em;
+}
+
+#divContent
+{
+	width: 100%;
+	height: 800px;
+	background-color: green;
 }
 
 #videoW3S
 {
-	width: 25%;
+	width: 35%;
 	height: 120px;
-	margin-left: 20%;
+	margin-left: 37%;
 	margin-top: 50px;
 }
