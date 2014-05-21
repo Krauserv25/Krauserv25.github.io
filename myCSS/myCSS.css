@@ -75,3 +75,8 @@ table
 	color: white;
 	font-weight: bold;
 }
+
+li input
+{
+	width: 80%;
+}
