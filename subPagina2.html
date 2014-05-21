@@ -2,18 +2,33 @@
 <meta charset="UTF-8"/>
 <html lang="es">
 <head>
-	<title>Página principal</title>
+	<title>VISTA DE WEB</title>
 	<link rel="stylesheet" type="text/css" href="myCSS/myCSS.css">
 </head>
 <body>
 	<div id="divTodo">
-		<div id="divHead">
-			<h1>ESTÁS EN VISTA DE WEBS</h1>
+		<div id="divHeader" tabindex="0">
+			<h1>ESTÁS EN VISTA DE WEB</h1>
 		</div>
 		<div id="divMenu">
 			<ul>
-				<li><a href="subPagina1.html"><input type="button" value="IR A HORARIOS"/></a></li>
+				<li><a href="index.html"><input type="button" value="IR A PÁGINA PRINCIPAL" tabindex="0"/></a></li>
+				<li><a href="subPagina1.html"><input type="button" value="IR A DEPORTE" tabindex="0"/></a></li>
 			</ul>
+		</div>
+
+		<div id="divContent">
+			<h2>Imágenes y enlaces</h2>
+			Esto es la página de imágenes y enlaces:
+			<br />
+			<img src="img/pokeball.png" class="images" alt="pokeball1">
+			<img src="img/pokeball.png" class="images" alt="pokeball2">
+			<br />
+			<br />
+			<a href="http://www.google.es" tabindex="0">ENLACE A GOOGLE</a>
+			<br />
+			<br />
+			<a href="http://www.nintendo.es" tabindex="0">ENLACE A NINTENDO</a>
 		</div>
 	</div>
 </body>

@@ -27,11 +27,16 @@ body
 	height: 500px;
 }
 
-.imageLogo
+.images
 {
 	float: left;
-	width: 10%;
-	height: 100%;
+	width: 20%;
+	height: 30%;
+}
+
+a
+{
+	clear: both;
 }
 
 #divContent
