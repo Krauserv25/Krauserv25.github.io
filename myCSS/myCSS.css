@@ -54,6 +54,12 @@ a
 	clear: both;
 }
 
+table
+{
+	width: 90%;
+	height: 60%;
+}
+
 #divContent
 {
 	float: left;
