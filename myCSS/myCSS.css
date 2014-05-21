@@ -14,6 +14,11 @@ h2
 	font-size: 2.5em;
 }
 
+.Texto
+{
+	font-size: 1.5em;
+}
+
 #divTodo
 {
 	margin: 0;
@@ -40,8 +45,8 @@ h2
 .images
 {
 	float: left;
-	width: 20%;
-	height: 30%;
+	width: 50%;
+	height: 60%;
 }
 
 a
